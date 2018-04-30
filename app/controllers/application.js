@@ -4,7 +4,7 @@ export default Controller.extend({
   actions: {
     toggleActive(monster) {
       monster.toggleProperty('active');
-      console.log('toggled', monster);
+      monster.save();
     }
   }
 });

@@ -1,0 +1,9 @@
+.monsters-index-list .monster {
+  width: 300px;
+  background-color: #ccf;
+  margin: 3px;
+  padding: 3px;
+  vertical-align: middle;
+  border: 1px solid #000;
+  font-size: 30px;
+}

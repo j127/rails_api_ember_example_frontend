@@ -3,6 +3,6 @@
 <h2>Monsters</h2>
 <ul class="monsters-index-list">
   {{#each model as |monster|}}
-  <li class="monster"><strong>{{monster.name}}</strong> is level {{monster.level}}.</li>
+  <li class="monster {{unless monster.active 'dark'}}"><strong>{{monster.name}}</strong> is level {{monster.level}}.{{#if monster.active}} ✓{{/if}}</li>
   {{/each}}
 </ul>

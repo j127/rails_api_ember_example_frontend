@@ -10,3 +10,6 @@ ul.monsters-index-list {
   border: 1px solid #000;
   font-size: 30px;
 }
+.monster.dark {
+  background-color: #AAD;
+}

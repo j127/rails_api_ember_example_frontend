@@ -1,5 +1,9 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<h1>Saluton Mondo</h1>
 
-{{outlet}}
+<p>Greeting: {{model.s1}}</p>
+<h2>Things:</h2>
+<ol>
+  {{#each model.things as |t|}}
+    <li>{{t.title}}</li>
+  {{/each}}
+</ol>

@@ -1,8 +1,11 @@
+ul.monsters-index-list {
+  list-style-type: none;
+}
 .monsters-index-list .monster {
   width: 300px;
   background-color: #ccf;
-  margin: 3px;
-  padding: 3px;
+  margin: 7px 0;
+  padding: 7px;
   vertical-align: middle;
   border: 1px solid #000;
   font-size: 30px;

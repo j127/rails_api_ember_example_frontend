@@ -1,9 +1,8 @@
 <h1>Saluton Mondo</h1>
 
-<p>Greeting: {{model.s1}}</p>
-<h2>Things:</h2>
+<h2>Monsters</h2>
 <ol>
-  {{#each model.things as |t|}}
-    <li>{{t.title}}</li>
+  {{#each model as |monster|}}
+  <li><strong>{{monster.name}}</strong> is level {{monster.level}}.</li>
   {{/each}}
 </ol>

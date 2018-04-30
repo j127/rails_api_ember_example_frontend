@@ -1,5 +1,8 @@
 # ember-experiment
 
+Backend: https://github.com/j127/rails_api_ember_example_backend
+
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
